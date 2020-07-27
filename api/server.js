@@ -6,6 +6,7 @@ const server = express();
 
 server.use(express.json());
 
+
 server.use("/api/cars", CarsRouter);
 
 server.get("/", (req, res) => {
